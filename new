@@ -1,0 +1,8 @@
+CREATE TABLE active_employees AS (
+   SELECT
+      *
+   FROM employee e
+   WHERE
+      e.active_flg = 'Y'
+   )
+WITH DATA;
